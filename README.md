@@ -1,2 +1,3 @@
-# futureofes
-The future of ES
+# ES6 and beyond
+
+A look as ES6.
