@@ -46,11 +46,11 @@ export default class ECMAStuffContinued extends React.Component {
           <h2 style={styles.subheading}>tooling makes everything better.</h2>
         </div>
         <div style={[show.at(1)]}>
-          <img style={styles.babelLogo} src="/img/babel.svg" />
+          <img style={styles.babelLogo} src="img/babel.svg" />
           <h2 style={[styles.subheading, styles.center]}>source to source compiler</h2>
         </div>
         <div style={[show.at(2)]}>
-          <img style={[styles.babelTweet]} src="/img/babel-tweet.png" />
+          <img style={[styles.babelTweet]} src="img/babel-tweet.png" />
         </div>
       </div>
     );

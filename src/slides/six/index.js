@@ -4,3 +4,7 @@ export ObjectLiterals from './obj-literals';
 export ArrowFunctions from './arrow-functions';
 export Classes from './classes';
 export BuiltinAPIs from './apis';
+export APlusPromises from './promises';
+export DefaultRestSpread from './rest-spread';
+export Modules from './modules';
+export Destructuring from './destructuring';

@@ -15,30 +15,16 @@ const styles = {
 
 const examplesSource = [
 `
-
-class Person {
-
-  name() {return \`\${this.first} \${this.last}\`}
-}
+var [a, , b] = [1,2,3];
 `,
-`
+`function({input, name}) {
 
-class Person {
-  @readonly
-  name() {return \`\${this.first} \${this.last}\`}
-}
-`,
-`
-(target) => {}
-(target, name, descriptor) => {}
-`
-
-]
-;
+}`
+];
 
 @Radium
-export default class Decorators extends React.Component {
-  static actionCount = 2;
+export default class Destructuring extends React.Component {
+  static actionCount = 1;
   static propTypes = {
     actionIndex: React.PropTypes.number.isRequired,
     style: React.PropTypes.object.isRequired
@@ -49,7 +35,7 @@ export default class Decorators extends React.Component {
     const show = bindShowHelper(actionIndex);
     return (
       <div style={[this.props.style, styles.slide]}>
-        <h1>@decorators</h1>
+        <h1>Destructuring</h1>
         <Snippet source={show.withArray(examplesSource)} />
       </div>
     );

@@ -5,6 +5,8 @@ import ES4 from './003-es4';
 import ECMAStuffContinued from './004-ecma-continued';
 import Tooling from './005-tooling';
 import * as six from './six';
+import * as seven from './seven';
+import ES7 from './007-es7';
 
 export default [
   TitleCard,
@@ -18,5 +20,14 @@ export default [
   six.ObjectLiterals,
   six.ArrowFunctions,
   six.Classes,
-  six.BuiltinAPIs
+  six.APlusPromises,
+  six.BuiltinAPIs,
+  six.DefaultRestSpread,
+  six.Modules,
+  six.Destructuring,
+  ES7,
+
+  seven.FunctionBind,
+  seven.Decorators,
+  seven.AsyncAwait
 ];
